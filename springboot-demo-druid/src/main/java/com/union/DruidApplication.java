@@ -12,11 +12,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2019/6/14
  */
 @SpringBootApplication
-public class ApplicationStart {
-    private static final Logger logger = LoggerFactory.getLogger(ApplicationStart.class);
+public class DruidApplication {
+    private static final Logger logger = LoggerFactory.getLogger(DruidApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationStart.class, args);
-        logger.info("ApplicationStart start success. . . . . . ");
+        SpringApplication.run(DruidApplication.class, args);
+        logger.info("DruidApplication start success. . . . . . ");
     }
 }
