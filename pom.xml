@@ -11,6 +11,7 @@
     <modules>
         <module>springboot-demo-druid</module>
         <module>springboot-demo-timer</module>
+        <module>springboot-demo-mybatis</module>
     </modules>
 
     <name>${artifactId}:springBoot</name>
