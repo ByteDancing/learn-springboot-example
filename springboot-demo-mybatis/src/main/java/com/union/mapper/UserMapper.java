@@ -16,4 +16,6 @@ public interface UserMapper {
     void deleteUserById(@Param("id") String id);
 
     int updateUser(User user);
+
+    int countList();
 }

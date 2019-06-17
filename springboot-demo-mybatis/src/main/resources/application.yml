@@ -1,5 +1,6 @@
 mybatis:
-  mapper-locations: classpath:mapper/**/*.xml
+  mapper-locations: classpath:mapper/**/*.xml   #mapper映射文件
+  config-location: classpath:mybatis-config.xml #插件配置文件
 
 
 

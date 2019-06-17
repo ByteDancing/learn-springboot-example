@@ -28,7 +28,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public String list() {
-        List<User> dataList = userService.queryList();
+        List<User> dataList = userService.queryList(1,3);
         return "ssss";
     }
 

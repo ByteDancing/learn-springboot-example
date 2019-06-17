@@ -48,7 +48,10 @@
         delete from user where id=#{id};
     </delete>
     <select id="queryList" resultType="com.union.entity.User">
-        select * from user order by id asc;
+        select * from user order by id asc
+    </select>
+    <select id="countList" resultType="java.lang.Integer">
+        select count(*) from user;
     </select>
 
 

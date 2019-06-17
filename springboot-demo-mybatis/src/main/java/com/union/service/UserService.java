@@ -7,7 +7,7 @@ import java.util.List;
 public interface UserService {
 
 
-    List<User> queryList();
+    List<User> queryList(int currentPage, int pageSize);
 
     void insertUser(User user);
 

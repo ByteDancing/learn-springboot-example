@@ -27,7 +27,7 @@ public class UserControllerTest {
 
     @Test
     public void list() {
-        List<User> userList = service.queryList();
+        List<User> userList = service.queryList(2,5);
         for (User user : userList) {
             log.info(user.getId() + "," + user.getUsername());
         }
