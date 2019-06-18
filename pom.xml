@@ -12,6 +12,7 @@
         <module>springboot-demo-druid</module>
         <module>springboot-demo-timer</module>
         <module>springboot-demo-mybatis</module>
+        <module>springboot-demo-jdbc</module>
     </modules>
 
     <name>${artifactId}:springBoot</name>
