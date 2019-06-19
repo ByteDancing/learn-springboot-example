@@ -13,6 +13,7 @@
         <module>springboot-demo-timer</module>
         <module>springboot-demo-mybatis</module>
         <module>springboot-demo-jdbc</module>
+        <module>spring-boot-demo-redis</module>
     </modules>
 
     <name>${artifactId}:springBoot</name>
