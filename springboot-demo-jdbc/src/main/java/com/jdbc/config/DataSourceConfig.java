@@ -1,3 +1,4 @@
+/*
 package com.jdbc.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,12 +9,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
+*/
 /**
  * description
  *
  * @author Mr.Cheng
  * @date 2019/6/18
- */
+ *//*
+
 @Configuration
 public class DataSourceConfig {
 
@@ -28,3 +31,4 @@ public class DataSourceConfig {
     }
 
 }
+*/
