@@ -113,6 +113,11 @@ public class DruidConfig {
 
     }
 
+    /**
+     * 登录用户密码
+     *
+     * @return
+     */
     @Bean
     public ServletRegistrationBean servletRegistrationBean() {
         ServletRegistrationBean srb = new ServletRegistrationBean(new StatViewServlet(), "/druid/*");
@@ -123,6 +128,10 @@ public class DruidConfig {
 
     }
 
+    /**
+     * web访问URL
+     * @return
+     */
     @Bean
     public FilterRegistrationBean filterRegistrationBean() {
         FilterRegistrationBean frb = new FilterRegistrationBean(new WebStatFilter());

@@ -30,7 +30,7 @@ public class DruidController {
 
     @RequestMapping("/add")
     public String addUser() {
-        String sql = "insert into user(username,password,nickname,question,answer,test_double) values('cc','dd','ee','dd','ff',999)";
+        String sql = "insert into user(username,password,nickname,question,answer,gmt_create,gmt_modified) values('cc','dd','ee','dd','ff',null,null)";
         jdbcTemplate.execute(sql);
         return "success insert";
     }
